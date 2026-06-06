@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TANEKEU TATSIKOU MICHEL WARREN - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandBlue: '#0052FF',
+                        bgLight: '#F8FAFC',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-bgLight text-slate-800 font-sans antialiased">
+
+    <header class="bg-white sticky top-0 z-50 border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="text-xl font-bold tracking-wide uppercase text-slate-900">
+                 Tanekeu Tatsikou Michel Warren
+            </div>
+            <nav class="hidden md:flex items-center space-x-8 font-medium text-sm text-slate-600">
+                <a href="#accueil" class="text-brandBlue border-b-2 border-brandBlue pb-1">Accueil</a>
+                <a href="#a-propos" class="hover:text-brandBlue transition">À propos</a>
+                <a href="#competences" class="hover:text-brandBlue transition">Compétences</a>
+                <a href="#projets" class="hover:text-brandBlue transition">Projets</a>
+                <a href="#contact" class="hover:text-brandBlue transition">Contact</a>
+                <a href="#" class="bg-brandBlue text-white px-5 py-2.5 rounded-lg flex items-center space-x-2 hover:bg-blue-700 transition shadow-md shadow-blue-200">
+                    <i class="fa-solid fa-download text-xs"></i>
+                    <span>Télécharger CV</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="accueil" class="max-w-7xl mx-auto px-6 py-16 md:py-24 grid md:grid-cols-12 gap-12 items-center">
+        <div class="md:col-span-7 space-y-6">
+            <span class="text-xs font-bold uppercase tracking-wider text-brandBlue bg-blue-50 px-3 py-1.5 rounded">
+                Étudiant en Génie Informatique
+            </span>
+            <h1 class="text-4xl md:text-6xl font-black text-slate-950 uppercase leading-tight">
+                Tanekeu Tatsikou <br> Michel Warren
+            </h1>
+            <p class="text-lg text-slate-600 leading-relaxed max-w-xl">
+                Étudiant en première année à l'IUT de Douala. Passionné par le développement, la maintenance informatique et la gestion des projets innovants dans le domaine du numérique.
+            </p>
+        </div>
+        <div class="md:col-span-5 flex justify-center">
+            <div class="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-white shadow-xl overflow-hidden bg-gray-200 flex items-center justify-center">
+                <img src="https://via.placeholder.com/400" alt="Tanekeu Tatsikou Michel Warren" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </section>
+
+    <main class="max-w-7xl mx-auto px-6 py-12 grid lg:grid-cols-12 gap-8">
+        
+        <div class="lg:col-span-7 space-y-8">
+            <div>
+                <div class="flex items-center space-x-2 text-brandBlue font-bold text-xs uppercase tracking-wider mb-2">
+                    <i class="fa-regular fa-folder-open"></i>
+                    <span>À propos</span>
+                </div>
+                <h2 class="text-2xl font-bold text-slate-900 mb-4">À propos de moi</h2>
+                <div class="space-y-4 text-slate-600 leading-relaxed text-sm">
+                    <p>Je suis <strong>TANEKEU TATSIKOU MICHEL WARREN</strong>, étudiant en première année à l'Institut Universitaire de Technologie (IUT) de Douala, département Génie Informatiq[...]
+                    <p>J'ai obtenu mon CEP à la Renaissance Sanb Bepc Probatoire D et Bac D au collège catholique sainte Cécile de Bonabéri.</p>
+                    <p>Je suis passionné par les nouvelles technologies, le développement logiciel, l'administration des systèmes et la résolution de problèmes complexes.</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-blue-50 text-brandBlue rounded-lg flex items-center justify-center text-sm"><i class="fa-regular fa-calendar"></i></div>
+                    <div><p class="text-xs text-gray-400 font-medium">Âge</p><p class="text-sm font-semibold text-slate-800">21 ans</p></div>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-blue-50 text-brandBlue rounded-lg flex items-center justify-center text-sm"><i class="fa-solid fa-location-dot"></i></div>
+                    <div><p class="text-xs text-gray-400 font-medium">Localisation</p><p class="text-sm font-semibold text-slate-800">Douala, Cameroun</p></div>
+                </div>
+                <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm flex items-center space-x-3 truncate">
+                    <div class="w-10 h-10 bg-blue-50 text-brandBlue rounded-lg flex items-center justify-center text-sm"><i class="fa-regular fa-envelope"></i></div>
+                    <div class="truncate"><p class="text-xs text-gray-400 font-medium">Email</p><p class="text-xs font-semibold text-slate-800 truncate">tatsikoumichelwarren@gmail.com</p></div>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm grid sm:grid-cols-2 gap-6">
+                <div class="flex items-start space-x-3">
+                    <div class="w-10 h-10 bg-blue-50 text-brandBlue rounded-lg flex items-center justify-center text-lg flex-shrink-0"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <div><h4 class="text-xs font-bold uppercase text-gray-400">Formation</h4><p class="text-sm font-medium text-slate-800 mt-1">IUT de Douala - Génie Informatique</p></div>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <div class="w-10 h-10 bg-blue-50 text-brandBlue rounded-lg flex items-center justify-center text-lg flex-shrink-0"><i class="fa-regular fa-bookmark"></i></div>
+                    <div><h4 class="text-xs font-bold uppercase text-gray-400">Niveau d'étude</h4><p class="text-sm font-medium text-slate-800 mt-1">1ère année</p></div>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <div class="w-10 h-10 bg-blue-50 text-brandBlue rounded-lg flex items-center justify-center text-lg flex-shrink-0"><i class="fa-regular fa-file-lines"></i></div>
+                    <div><h4 class="text-xs font-bold uppercase text-gray-400">Diplômes</h4><p class="text-sm font-medium text-slate-800 mt-1">CEP, BEPC Probatoire D, BAC D</p></div>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <div class="w-10 h-10 bg-blue-50 text-brandBlue rounded-lg flex items-center justify-center text-lg flex-shrink-0"><i class="fa-regular fa-heart"></i></div>
+                    <div><h4 class="text-xs font-bold uppercase text-gray-400">Passion</h4><p class="text-sm font-medium text-slate-800 mt-1">Développement, Technologie, Innovation</p></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="competences" class="lg:col-span-5 bg-white p-6 rounded-2xl border border-gray-100 shadow-sm h-fit">
+            <div class="flex items-center space-x-2 text-brandBlue font-bold text-xs uppercase tracking-wider mb-6">
+                <i class="fa-solid fa-chart-bar"></i>
+                <span>Compétences</span>
+            </div>
+
+            <div class="space-y-5">
+                <div>
+                    <div class="flex justify-between items-center text-sm font-bold text-slate-800 mb-1">
+                        <span class="flex items-center space-x-2"><i class="fa-brands fa-python text-blue-500"></i> <span>Python</span></span>
+                        <span>75%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2 rounded-full"><div class="bg-brandBlue h-2 rounded-full" style="width: 75%"></div></div>
+                </div>
+                <div>
+                    <div class="flex justify-between items-center text-sm font-bold text-slate-800 mb-1">
+                        <span class="flex items-center space-x-2"><i class="fa-brands fa-js text-yellow-500"></i> <span>JavaScript</span></span>
+                        <span>40%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2 rounded-full"><div class="bg-brandBlue h-2 rounded-full" style="width: 40%"></div></div>
+                </div>
+                <div>
+                    <div class="flex justify-between items-center text-sm font-bold text-slate-800 mb-1">
+                        <span class="flex items-center space-x-2"><i class="fa-brands fa-html5 text-orange-500"></i> <span>HTML / CSS</span></span>
+                        <span>50%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2 rounded-full"><div class="bg-brandBlue h-2 rounded-full" style="width: 50%"></div></div>
+                </div>
+                <div>
+                    <div class="flex justify-between items-center text-sm font-bold text-slate-800 mb-1">
+                        <span class="flex items-center space-x-2"><i class="fa-solid fa-database text-slate-500"></i> <span>SQL / Bases de données</span></span>
+                        <span>10%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2 rounded-full"><div class="bg-brandBlue h-2 rounded-full" style="width: 10%"></div></div>
+                </div>
+                <div>
+                    <div class="flex justify-between items-center text-sm font-bold text-slate-800 mb-1">
+                        <span class="flex items-center space-x-2"><i class="fa-solid fa-screwdriver-wrench text-amber-600"></i> <span>Maintenance & Réseaux</span></span>
+                        <span>70%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2 rounded-full"><div class="bg-brandBlue h-2 rounded-full" style="width: 70%"></div></div>
+                </div>
+                <div>
+                    <div class="flex justify-between items-center text-sm font-bold text-slate-800 mb-1">
+                        <span class="flex items-center space-x-2"><i class="fa-solid fa-briefcase text-amber-800"></i> <span>Gestion de projet</span></span>
+                        <span>45%</span>
+                    </div>
+                    <div class="w-full bg-gray-100 h-2 rounded-full"><div class="bg-brandBlue h-2 rounded-full" style="width: 45%"></div></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="max-w-7xl mx-auto px-6 py-12 grid lg:grid-cols-12 gap-8">
+        
+        <div id="projets" class="lg:col-span-7 space-y-6">
+            <div class="flex items-center space-x-2 text-brandBlue font-bold text-xs uppercase tracking-wider">
+                <i class="fa-regular fa-folder"></i>
+                <span>Projets</span>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm flex flex-col justify-between space-y-4">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-blue-50 text-brandBlue rounded-xl flex items-center justify-center text-xl flex-shrink-0"><i class="fa-solid fa-desktop"></i></div>
+                        <div>
+                            <h3 class="font-bold text-slate-900 text-sm">Site de réservation en ligne</h3>
+                            <p class="text-xs text-gray-500 mt-1">Plateforme web de réservation en ligne pour une application mobile.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-1.5 pt-2">
+                        <span class="text-[10px] font-bold px-2 py-1 bg-gray-100 rounded-full text-slate-600">HTML</span>
+                        <span class="text-[10px] font-bold px-2 py-1 bg-gray-100 rounded-full text-slate-600">CSS</span>
+                        <span class="text-[10px] font-bold px-2 py-1 bg-gray-100 rounded-full text-slate-600">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="bg-white p-5 rounded-xl border border-gray-100 shadow-sm flex flex-col justify-between space-y-4">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-green-50 text-green-600 rounded-xl flex items-center justify-center text-xl flex-shrink-0"><i class="fa-solid fa-leaf"></i></div>
+                        <div>
+                            <h3 class="font-bold text-slate-900 text-sm">Application Agriculture & Élevage</h3>
+                            <p class="text-xs text-gray-500 mt-1">Application web et mobile pour le développement de l'agriculture et l'élevage.</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap gap-1.5 pt-2">
+                        <span class="text-[10px] font-bold px-2 py-1 bg-gray-100 rounded-full text-slate-600">React Native</span>
+                        <span class="text-[10px] font-bold px-2 py-1 bg-gray-100 rounded-full text-slate-600">Node.js</span>
+                        <span class="text-[10px] font-bold px-2 py-1 bg-gray-100 rounded-full text-slate-600">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="lg:col-span-5 space-y-4">
+            <div class="flex items-center space-x-2 text-brandBlue font-bold text-xs uppercase tracking-wider">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Contact</span>
+            </div>
+            <h2 class="text-xl font-bold text-slate-900">Me contacter</h2>
+            
+            <div class="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm space-y-6">
+                <div class="space-y-3 text-xs font-medium text-slate-700">
+                    <div class="flex items-center space-x-3"><i class="fa-regular fa-envelope text-gray-400 w-4 text-center"></i> <span>tatsikoumichelwarren@gmail.com</span></div>
+                    <div class="flex items-center space-x-3"><i class="fa-solid fa-phone text-gray-400 w-4 text-center"></i> <span>+237 688 08 52 17</span></div>
+                    <div class="flex items-center space-x-3"><i class="fa-solid fa-location-dot text-gray-400 w-4 text-center"></i> <span>Douala, Cameroun</span></div>
+                </div>
+
+                <form class="space-y-3">
+                    <div class="grid grid-cols-2 gap-3">
+                        <input type="text" placeholder="Nom complet" class="w-full text-xs bg-gray-50 border border-gray-200 rounded-lg p-3 focus:outline-none focus:border-brandBlue">
+                        <input type="email" placeholder="Email" class="w-full text-xs bg-gray-50 border border-gray-200 rounded-lg p-3 focus:outline-none focus:border-brandBlue">
+                    </div>
+                    <input type="text" placeholder="Sujet" class="w-full text-xs bg-gray-50 border border-gray-200 rounded-lg p-3 focus:outline-none focus:border-brandBlue">
+                    <textarea placeholder="Votre message" rows="3" class="w-full text-xs bg-gray-50 border border-gray-200 rounded-lg p-3 focus:outline-none focus:border-brandBlue"></textarea>
+                    
+                    <button type="submit" class="w-full bg-brandBlue text-white text-xs font-bold py-3 rounded-lg flex items-center justify-center space-x-2 hover:bg-blue-700 transition">
+                        <i class="fa-regular fa-paper-plane"></i>
+                        <span>Envoyer le message</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="max-w-7xl mx-auto px-6 py-8 border-t border-gray-100 flex flex-col md:flex-row items-center justify-between text-xs text-gray-400 font-medium">
+        <p>© 2026 TANEKEU TATSIKOU MICHEL WARREN. Tous droits réservés.</p>
+        <div class="flex space-x-5 mt-4 md:mt-0 text-base text-slate-700">
+            <a href="#" class="hover:text-brandBlue transition"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="hover:text-brandBlue transition"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="hover:text-brandBlue transition"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
